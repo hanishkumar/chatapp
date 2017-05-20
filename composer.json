@@ -1,6 +1,6 @@
 {
     "name": "hanishkumar/chatapp",
-    "version": "0.1",
+    "version": "1.0",
     "description": "ChatApp is a PHP library designed to make it easy to consume and produce chat application",
     "keywords": ["Chat", "Chat Application", "Laravel Chat"],
     "type": "library",
