@@ -26,7 +26,7 @@ Publish Asserts To Public Folder to install basic theme for chat
 	php artisan vendor:publish
 ```
 
-To Include ChatBox In Your Master Page Just Add
+To Include ChatBox In Your Master Page Just Add after all scripts at end
 
 ```php
 	 @if(!empty(Auth::user()->id))
