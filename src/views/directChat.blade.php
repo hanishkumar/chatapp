@@ -45,6 +45,7 @@
             complete: function(){
                // $('#Loadmessages').removeClass('direct-chat-contacts-open');
                 $('.loading-image').hide();
+				 $('.emobox').hide();
                // var objDiv = document.getElementById("messages");
                // objDiv.scrollTop = objDiv.scrollHeight;
 
@@ -70,6 +71,7 @@
             },
             complete: function(){
                 $('.loading-image').hide();
+				 $('.emobox').hide();
                 var objDiv = document.getElementById("messages");
                 objDiv.scrollTop = objDiv.scrollHeight;
             },
