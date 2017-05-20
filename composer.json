@@ -4,6 +4,7 @@
     "description": "ChatApp is a PHP library designed to make it easy to consume and produce chat application",
     "keywords": ["Chat", "Chat Application", "Laravel Chat"],
     "type": "library",
+	"license": "MIT",
     "authors": [
         {
             "name": "hanish kumar",
