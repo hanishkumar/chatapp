@@ -14,8 +14,23 @@ Add to config/app.php the following line to the 'providers' array:
 	Hanish\ChatApp\ChatAppServiceProvider::class,
 ```
 
+Publish Migrations
+
+```php
+	php artisan migrate
+```
+
 Publish Asserts To Public Folder to install basic theme for chat
 
 ```php
 	php artisan vendor:publish
 ```
+
+To Include ChatBox In Your Master Page Just Add
+
+```php
+	 @if(!empty(Auth::user()->id))
+                        @include('chat::directChat')
+            @endif
+```
+
