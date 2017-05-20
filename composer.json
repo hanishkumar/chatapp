@@ -25,5 +25,10 @@
             "App\\": "app/",
             "Hanish\\ChatApp\\": "packages/hanishkumar/chatapp/src"
         }
+    },
+	 "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
