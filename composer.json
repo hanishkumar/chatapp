@@ -17,12 +17,12 @@
     },
     "autoload": {        
         "psr-4": {           
-            "Hanish\\ChatApp\\": "packages/hanishkumar/chatapp/src"
+            "Hanish\\ChatApp\\": "src/"
         }
     },
 	 "autoload-dev": {        
         "psr-4": {           
-            "Hanish\\ChatApp\\": "packages/hanishkumar/chatapp/src"
+            "Hanish\\ChatApp\\": "src/"
         }
     },
 	 "extra": {
