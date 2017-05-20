@@ -1,0 +1,28 @@
+{
+    "name": "hanishkumar/chatapp",
+    "version": "0.1",
+    "description": "ChatApp is a PHP library designed to make it easy to consume and produce chat application",
+    "keywords": ["Chat", "Chat Application", "Laravel Chat"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "hanish kumar",
+            "email": "info@hanishkumar.com",
+            "homepage": "http://www.hanishkumar.com/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Hanish\\ChatApp\\": "packages/hanishkumar/chatapp/src"
+        }
+    }
+}
